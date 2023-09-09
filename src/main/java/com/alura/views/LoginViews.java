@@ -18,7 +18,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 
-public class Login extends JFrame {
+public class LoginViews extends JFrame {
 
 	/**
 	 * 
@@ -37,7 +37,7 @@ public class Login extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Login frame = new Login();
+					LoginViews frame = new LoginViews();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -49,7 +49,7 @@ public class Login extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Login() {
+	public LoginViews() {
 		setResizable(false);
 		setUndecorated(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -76,7 +76,7 @@ public class Login extends JFrame {
 		JLabel imgHotel = new JLabel("");
 		imgHotel.setBounds(0, 0, 304, 538);
 		panel_1.add(imgHotel);
-		imgHotel.setIcon(new ImageIcon(Login.class.getResource("/imagenes/img-hotel-login-.png")));
+		imgHotel.setIcon(new ImageIcon(LoginViews.class.getResource("/imagenes/img-hotel-login-.png")));
 		
 		final JPanel btnexit = new JPanel();
 		btnexit.setBounds(251, 0, 53, 36);
@@ -210,7 +210,7 @@ public class Login extends JFrame {
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("/imagenes/lOGO-50PX.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(LoginViews.class.getResource("/imagenes/lOGO-50PX.png")));
 		lblNewLabel_1.setBounds(65, 65, 48, 59);
 		panel.add(lblNewLabel_1);
 		
