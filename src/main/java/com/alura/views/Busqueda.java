@@ -145,7 +145,7 @@ public class Busqueda extends JFrame {
 		header.setBounds(0, 0, 910, 36);
 		contentPane.add(header);
 		
-		JPanel btnAtras = new JPanel();
+		final JPanel btnAtras = new JPanel();
 		btnAtras.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -175,7 +175,7 @@ public class Busqueda extends JFrame {
 		labelAtras.setBounds(0, 0, 53, 36);
 		btnAtras.add(labelAtras);
 		
-		JPanel btnexit = new JPanel();
+		final JPanel btnexit = new JPanel();
 		btnexit.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

@@ -92,7 +92,7 @@ public class RegistroHuesped extends JFrame {
 		header.setBounds(0, 0, 910, 36);
 		contentPane.add(header);
 		
-		JPanel btnAtras = new JPanel();
+		final JPanel btnAtras = new JPanel();
 		btnAtras.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -283,7 +283,7 @@ public class RegistroHuesped extends JFrame {
 		panel.add(logo);
 		logo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/Ha-100px.png")));
 		
-		JPanel btnexit = new JPanel();
+		final JPanel btnexit = new JPanel();
 		btnexit.setBounds(857, 0, 53, 36);
 		contentPane.add(btnexit);
 		btnexit.addMouseListener(new MouseAdapter() {

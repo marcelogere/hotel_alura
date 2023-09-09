@@ -86,7 +86,7 @@ public class MenuUsuario extends JFrame {
 		panelMenu.add(lblNewLabel_2);
 		lblNewLabel_2.setIcon(new ImageIcon(MenuUsuario.class.getResource("/imagenes/aH-150px.png")));
 		
-		JPanel btnRegistro = new JPanel();
+		final JPanel btnRegistro = new JPanel();
 		btnRegistro.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
@@ -116,7 +116,7 @@ public class MenuUsuario extends JFrame {
 		labelRegistro.setHorizontalAlignment(SwingConstants.LEFT);
 		btnRegistro.add(labelRegistro);
 		
-		JPanel btnBusqueda = new JPanel();
+		final JPanel btnBusqueda = new JPanel();
 		btnBusqueda.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
@@ -154,7 +154,7 @@ public class MenuUsuario extends JFrame {
 		header.setBounds(0, 0, 944, 36);
 		contentPane.add(header);
 		
-		JPanel btnexit = new JPanel();
+		final JPanel btnexit = new JPanel();
 		btnexit.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

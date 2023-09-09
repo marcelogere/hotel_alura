@@ -179,7 +179,7 @@ public class Login extends JFrame {
 		lblContrasea.setBounds(65, 316, 140, 26);
 		panel.add(lblContrasea);
 		
-		JPanel btnLogin = new JPanel();
+		final JPanel btnLogin = new JPanel();
 		btnLogin.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {

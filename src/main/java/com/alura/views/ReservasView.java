@@ -155,7 +155,7 @@ public class ReservasView extends JFrame {
 		panel.add(separator_1);
 												
 		// Componentes para dejar la interfaz con estilo Material Design
-		JPanel btnexit = new JPanel();
+		final JPanel btnexit = new JPanel();
 		btnexit.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -205,7 +205,7 @@ public class ReservasView extends JFrame {
 		header.setBackground(Color.WHITE);
 		panel.add(header);
 		
-		JPanel btnAtras = new JPanel();
+		final JPanel btnAtras = new JPanel();
 		btnAtras.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
