@@ -35,14 +35,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/marce/.m2/repository/com/mchange/c3p0/0.9.5.5/c3p0-0.9.5.5.jar" sourcepath="C:/Users/marce/.m2/repository/com/mchange/c3p0/0.9.5.5/c3p0-0.9.5.5-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.mchange"/>
-			<attribute name="maven.artifactId" value="c3p0"/>
-			<attribute name="maven.version" value="0.9.5.5"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="F:/Backup - Google Drive/Alura - ONE/JARS/mchange-commons-java-0.2.16.jar"/>
+	<classpathentry kind="lib" path="F:/Backup - Google Drive/Alura - ONE/JARS/jcalendar-1.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
